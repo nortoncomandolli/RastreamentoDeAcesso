@@ -1,0 +1,2 @@
+class Acesso < ApplicationRecord
+end

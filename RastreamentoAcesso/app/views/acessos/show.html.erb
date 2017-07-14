@@ -1,0 +1,26 @@
+<html>
+<body>
+<div class="container">
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th>Key</th>
+			<th>E-mail</th>
+			<th>Path</th>
+			<th>Data</th>
+		</tr>
+	</thead>
+	<tbody>
+		<% @todos.each do |acesso| %> 
+		<tr>
+			<td><%= acesso.key %></td>
+			<td><%= acesso.email %></td>
+			<td><%= acesso.path %></td>
+			<td><%= acesso.date %></td>
+		</tr>
+		<% end %>
+	</tbody>
+</table>
+</div>
+</body>
+</html>
